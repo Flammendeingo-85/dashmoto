@@ -13,13 +13,14 @@ body {
   margin: auto;
 }
 
-span {
+/* SPAN STYLES */
+.pricing {
   color: blue;
   font-weight: bold;
 }
 
 /* HEADER SECTION */
-header h1 {
+.main_header {
   font-size: 100px;
   font-weight: bold;
   color: khaki;
@@ -27,38 +28,37 @@ header h1 {
   text-align: center;
   margin: 50px 0px;
 }
-
+/* IMG STYLES */
 img {
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 
-.brushes h2 {
+/* HEADER STYLES */
+.header {
   font-size: 32px;
   font-family: Helvetica;
   font-weight: bold;
   color: #fff;
+  margin-bottom: 30px;
+}
+
+/* BRUSH SECTION */
+.brush {
   background: mediumspringgreen;
-  margin-bottom: 30px;
 }
 
-.frames h2 {
-  font-size: 32px;
-  font-family: Helvetica;
-  Font-weight: bold;
-  color: #fff;
+/* FRAMES SECTION */
+.frames  {
   background: lightcoral;
-  margin-bottom: 30px;
 }
 
-.paint h2 {
-  font-size: 32px;
-  font-family: Helvetica;
-  font-weight: bold;
-  color: #fff;
+/* PAINT SECTION */
+.paint {
   background: skyblue;
-  margin-bottom: 30px;
 }
 
+/* OVERALL HEADING AND PARAGRAPH STYLES */
 h3 {
   margin-bottom: 15px;
 }
